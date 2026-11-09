@@ -62,3 +62,13 @@ Då kan man snabbt återgå till en tidigare version som fungerade.
 Exempel:
 
 Ett företag uppdaterar sin webbshop. Efter uppdateringen kan kunderna inte genomföra betalningar. Företaget gör då en rollback till den tidigare versionen så att betalningarna fungerar igen.
+
+## Del 2 – Praktisk övning
+
+Vad krävs för att samma Docker-image ska kunna köras i en annan miljö?
+
+- Docker måste finnas installerat på den andra datorn eller servern.
+- Rätt portar måste vara öppna och konfigurerade, så att man kan komma åt applikationen.
+- Miljövariabler och inställningar måste vara korrekt konfigurerade, såsom databasanlutningar.
+- Externa tjänster som applikationen behöver, exempelvis en databas, måste pckså vara tillgängliga.
+
