@@ -42,3 +42,22 @@ Den tillhandahåller miljön där kommandon, tester och andra automatiserade upp
 För att rätta fel i koden innan problemen sprids vidare.
 
 Det sparar tid, minskar risken för större problem och hjälper teamet att leverera bättre kvalitet till kunden.
+
+Öppna:
+.github/workflows/ci.yml
+Undersök:
+• Vad startar pipelinen?
+En händelse (event) som startar en workflow i Github Actions.Händelsen bestäms av inställningarna under `on:` i filen `ci.yml`.
+
+• Vilka steg genomförs?
+Checkout repository – hämtar koden från GitHub.
+Set up Python – installerar och konfigurerar Python 3.12.
+Install dependencies – installerar projektets beroenden från requirements.txt.
+Run tests – kör automatiserade tester med Pytest.
+Run Ruff – kontrollerar kodkvaliteten med Ruff.
+
+• Vilken miljö används?
+CI-pipelinen körs på en GitHub-hosted runner med operativsystemet Ubuntu Linux.
+
+• Vilka tester och kvalitetskontroller utförs? 
+Pytest (testar funktionaliteten) och Ruff(kontrollerar kodkvaliteten)
