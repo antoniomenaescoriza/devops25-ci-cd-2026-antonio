@@ -1,6 +1,6 @@
 # Självstudier 3 – Måndag 9 november
 
-## Del 1 – Teoretisk fördjupning 
+## Del 1 – Teoretisk fördjupning
 
 CI innebär att utvecklare regelbundet integrerar sina kodändringar i ett gemensamt repository. När kod skickas till Github kan Github Actions automatiskt köra tester och kvalitetskontroller.
 
