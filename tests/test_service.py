@@ -8,7 +8,7 @@ def test_add():
 
 
 def test_divide():
-    assert divide(10, 2) == 500
+    assert divide(10, 2) == 5
 
 
 def test_divide_by_zero():
