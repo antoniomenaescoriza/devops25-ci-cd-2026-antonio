@@ -10,7 +10,6 @@ jobs:
  steps:
  - name: Checkout repository
  uses: actions/checkout@v6
-Nackademin · CI/CD · Dag 5
  - name: Build Docker image
  run: docker build -t devops25-app .
  - name: Start application
